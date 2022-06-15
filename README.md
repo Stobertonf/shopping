@@ -1,16 +1,21 @@
-# shopping
+👋 Olá, seja bem vindo.
 
-A new Flutter project.
+## Curso
 
-## Getting Started
+💻 Projeto da carreira Desenvolvedor Mobile FLutter: Criando Apps nativas escaláveis com Flutter, BloC e Provider do professor André Baltieri (Balta) na plataforma balta.io.
 
-This project is a starting point for a Flutter application.
+## Escopo
 
-A few resources to get you started if this is your first Flutter project:
+📚 Neste projeto, eu irei aprender a desenvolver uma aplicação completa para Mobile, utilizando Dart & Flutter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Foco
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+😊 O curso é focado no desenvolvimento de um App com separação da regra de negócio, utilizando Bloc..
+
+## Prazo
+
+⚡ Este projeto foi iniciado no dia 14/06/2022, porém, ainda está sendo desenvolvido. No entanto, em breve espero trazer muitas novidades para este repositório !!!
+
+## Imagens
+
+:camera: Neste momento, eu não possuo imagens para disponibilizar, no entanto, em breve irei disponibilizar.
