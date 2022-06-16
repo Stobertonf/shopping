@@ -10,7 +10,7 @@
 
 ## Foco
 
-😊 O curso é focado no desenvolvimento de um App com separação da regra de negócio, utilizando Bloc..
+😊 O curso é focado no desenvolvimento de um App com separação da regra de negócio, utilizando Bloc.
 
 ## Prazo
 
