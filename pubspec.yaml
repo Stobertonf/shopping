@@ -44,7 +44,11 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  provider: any
+  dio: any
+  intl: ^0.15.8
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^0.5.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -58,9 +62,34 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+     - assets/categories/dark/tv.png
+     - assets/categories/dark/moda.png
+     - assets/categories/light/decor.png
+     - assets/categories/light/games.png
+     - assets/categories/light/moda.png
+     - assets/categories/light/tv.png
+     - assets/categories/dark/decor.png
+     - assets/categories/dark/games.png
+     - assets/categories/light/telefonia.png
+     - assets/categories/dark/automotivo.png
+     - assets/categories/dark/brinquedos.png
+     - assets/categories/dark-yellow/tv.png
+     - assets/categories/light/brinquedos.png
+     - assets/categories/light/automotivo.png
+     - assets/categories/dark/telefonia.png
+     - assets/categories/dark/informatica.png
+     - assets/categories/dark-yellow/moda.png
+     - assets/categories/dark-yellow/games.png
+     - assets/categories/light/informatica.png
+     - assets/categories/dark-yellow/decor.png
+     - assets/categories/dark/eletrodomesticos.png
+     - assets/categories/dark-yellow/telefonia.png
+     - assets/categories/dark-yellow/automotivo.png
+     - assets/categories/light/eletrodomesticos.png
+     - assets/categories/dark-yellow/brinquedos.png
+     - assets/categories/dark-yellow/informatica.png
+     - assets/categories/dark-yellow/eletrodomesticos.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
