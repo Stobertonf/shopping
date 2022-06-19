@@ -18,4 +18,4 @@
 
 ## Imagens
 
-:camera: Neste momento, eu não possuo imagens para disponibilizar, no entanto, em breve irei disponibilizar.
+:camera: Neste momento, eu não possuo imagens, no entanto, em breve irei disponibilizar.
