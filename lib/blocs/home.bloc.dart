@@ -8,9 +8,10 @@ class HomeBloc extends ChangeNotifier {
   final categoryRepository = new CategoryRepository();
   final productRepository = new ProductRepository();
 
+  String selectedCategory =
+      'todos'; //Local onde mostra que a categoria está selecionanda ou não.
   List<ProductListItemModel> products;
   List<CategoryListItemModel> categories;
-  String selectedCategory = 'todos';
 
   HomeBloc() {
     getCategories();
