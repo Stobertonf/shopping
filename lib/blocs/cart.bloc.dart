@@ -21,4 +21,9 @@ class CartBloc extends ChangeNotifier {
     });
     notifyListeners();
   }
+
+  remove(CartItemModel item) {
+    cart.removeWhere((x) => x.id == item.id);
+    calculateTotal();
+  }
 }
