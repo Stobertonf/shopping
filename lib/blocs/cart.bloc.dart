@@ -35,4 +35,13 @@ class CartBloc extends ChangeNotifier {
     });
     return result;
   }
+
+  //Aumenta A Quantidade De Itens No Carrinho
+  //O máximo permitido são 10 itens.
+  increase(CartItemModel item) {
+    if (item.quantity < 10) {
+      item.quantity++;
+      calculateTotal();
+    }
+  }
 }
