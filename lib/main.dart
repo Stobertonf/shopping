@@ -1,7 +1,7 @@
 import 'blocs/home.bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shopping/ui/android/pages/home.page.dart';
+import 'package:shopping/ui/android/pages/tabs.page.dart';
 import 'package:shopping/ui/shared/widgets/category/category-list.widget.dart';
 
 void main() {
@@ -31,7 +31,10 @@ class Main extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: DefaultTabController(
+        length: 3,
+        child: TabsPage(),
+      ),
     );
   }
 }
