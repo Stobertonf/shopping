@@ -54,6 +54,45 @@ class ProductCard extends StatelessWidget {
           const SizedBox(
             height: 5,
           ),
+          Padding(
+            padding: const EdgeInsets.only(
+              left: 10,
+              right: 10,
+            ),
+            child: Text(
+              item.brand,
+              style: const TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.w300,
+              ),
+            ),
+          ),
+          const SizedBox(
+            height: 5,
+          ),
+          Padding(
+            padding: const EdgeInsets.only(
+              left: 10,
+              right: 10,
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                Container(
+                  width: 120,
+                  child: Text(
+                    "R\$ ${price.format(item.price)}",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  ),
+                ),
+                //AddToCart(item: item),
+              ],
+            ),
+          ),
         ],
       ),
     );
