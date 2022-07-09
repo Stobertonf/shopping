@@ -38,6 +38,13 @@ class CartBloc extends ChangeNotifier {
     }
   }
 
+  decrease(CartItemModel item) {
+    if (item.quantity > 1) {
+      item.quantity--;
+      calculateTotal();
+    }
+  }
+
   calculateTotal() {
     total = 0;
     cart.forEach((x) {
