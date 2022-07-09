@@ -34,6 +34,26 @@ class ProductCard extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(
+            height: 10,
+          ),
+          Container(
+            padding: const EdgeInsets.only(
+              left: 10,
+              right: 10,
+            ),
+            height: 60,
+            child: Text(
+              item.title,
+              style: const TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w300,
+              ),
+            ),
+          ),
+          const SizedBox(
+            height: 5,
+          ),
         ],
       ),
     );
