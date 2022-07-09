@@ -26,4 +26,13 @@ class CartBloc extends ChangeNotifier {
     cart.removeWhere((x) => x.id == item.id);
     calculateTotal();
   }
+
+  //Verificando Se o Item Já Está No Carrinho
+  itemInCart(CartItemModel item) {
+    var result = false;
+    cart.forEach((x) {
+      if (item.id == x.id) result = true;
+    });
+    return result;
+  }
 }
