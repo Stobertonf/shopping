@@ -14,14 +14,6 @@ class CartBloc extends ChangeNotifier {
     calculateTotal();
   }
 
-  calculateTotal() {
-    total = 0;
-    cart.forEach((x) {
-      total += (x.price * x.quantity);
-    });
-    notifyListeners();
-  }
-
   remove(CartItemModel item) {
     cart.removeWhere((x) => x.id == item.id);
     calculateTotal();
@@ -38,10 +30,19 @@ class CartBloc extends ChangeNotifier {
 
   //Aumenta A Quantidade De Itens No Carrinho
   //O máximo permitido são 10 itens.
+  //Segue o conceito  do spof single point of failure ---> Ponto único de falha, temos que fazer as coisas em um lugar só
   increase(CartItemModel item) {
     if (item.quantity < 10) {
       item.quantity++;
       calculateTotal();
     }
+  }
+
+  calculateTotal() {
+    total = 0;
+    cart.forEach((x) {
+      total += (x.price * x.quantity);
+    });
+    notifyListeners();
   }
 }
