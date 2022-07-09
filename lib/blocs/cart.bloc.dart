@@ -9,6 +9,11 @@ class CartBloc extends ChangeNotifier {
     return cart;
   }
 
+  add(CartItemModel item) {
+    cart.add(item);
+    calculateTotal();
+  }
+
   calculateTotal() {
     total = 0;
     cart.forEach((x) {
