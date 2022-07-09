@@ -1,6 +1,7 @@
 import 'blocs/home.bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:shopping/ui/shared/widgets/product/product-list.widget.dart';
 import 'package:shopping/ui/shared/widgets/category/category-list.widget.dart';
 
 void main() {
@@ -57,6 +58,19 @@ class HomePage extends StatelessWidget {
             ),
             CategoryList(
               categories: bloc.categories,
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Mais Vendidos",
+              style: Theme.of(context).textTheme.headline1,
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            ProductList(
+              products: bloc.products,
             ),
           ],
         ),
