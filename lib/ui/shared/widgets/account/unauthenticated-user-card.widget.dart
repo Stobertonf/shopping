@@ -1,10 +1,38 @@
 import 'package:flutter/material.dart';
+import '../../../android/pages/login.page.dart';
 
 class UnauthenticatedUserCard extends StatelessWidget {
-  const UnauthenticatedUserCard({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: <Widget>[
+        SizedBox(
+          height: 60,
+        ),
+        FlatButton(
+          child: Text("Autentique-se"),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const LoginPage(),
+              ),
+            );
+          },
+        ),
+        FlatButton(
+          child: Text("Ainda não sou cadastrado"),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const LoginPage(),
+              ),
+            );
+          },
+        ),
+      ],
+    );
   }
 }
