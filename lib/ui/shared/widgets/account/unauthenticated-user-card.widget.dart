@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../android/pages/login.page.dart';
+import 'package:shopping/ui/android/pages/signup.page.dart';
 
 class UnauthenticatedUserCard extends StatelessWidget {
   @override
@@ -7,11 +8,11 @@ class UnauthenticatedUserCard extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        SizedBox(
+        const SizedBox(
           height: 60,
         ),
         FlatButton(
-          child: Text("Autentique-se"),
+          child: const Text("Autentique-se"),
           onPressed: () {
             Navigator.push(
               context,
@@ -22,7 +23,7 @@ class UnauthenticatedUserCard extends StatelessWidget {
           },
         ),
         FlatButton(
-          child: Text("Ainda não sou cadastrado"),
+          child: const Text("Ainda não sou cadastrado"),
           onPressed: () {
             Navigator.push(
               context,
