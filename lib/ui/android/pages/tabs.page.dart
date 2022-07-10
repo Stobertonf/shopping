@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../ios/pages/home.page.dart';
 import 'package:provider/provider.dart';
+import 'package:shopping/ui/android/pages/cart.page.dart';
 
 class TabsPage extends StatelessWidget {
   @override
@@ -11,6 +12,7 @@ class TabsPage extends StatelessWidget {
       body: TabBarView(
         children: [
           HomePage(),
+          CartPage(),
         ],
       ),
       bottomNavigationBar: new TabBar(
