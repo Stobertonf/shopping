@@ -12,30 +12,32 @@ class HomePage extends StatelessWidget {
 
     return CupertinoPageScaffold(
       child: Padding(
-        padding: EdgeInsets.all(10),
+        padding: const EdgeInsets.all(
+          10,
+        ),
         child: ListView(
           children: <Widget>[
-            SizedBox(
+            const SizedBox(
               height: 60,
             ),
             Text(
               "Categorias",
-              style: Theme.of(context).textTheme.headline,
+              style: Theme.of(context).textTheme.headline1,
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             CategoryList(
               categories: bloc.categories,
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Text(
               "Mais Vendidos",
               style: Theme.of(context).textTheme.headline1,
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             ProductList(
