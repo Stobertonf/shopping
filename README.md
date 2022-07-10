@@ -6,7 +6,7 @@
 
 ## Escopo
 
-📚 Neste curso, eu tive a oportunidade de aprender / revisar muitas coisas, como Bloc, Provider, Repository Pattern, Temas, Temas Dinâmicos e Formulários. Além disso, aprendi a separar regra de negócio da view e validações customizadas.
+📚 Neste curso, eu tive a oportunidade de aprender / revisar muitas coisas, como Bloc, Provider, Repository Pattern, Temas, Temas Dinâmicos e Formulários. Além disso, aprendi a separar regra de negócio da view e validações customizadas. Além disso, eu tive a oportunidade de aprender a aplicar conceitos de arquitetura, SOLID e Clean Code.
 
 ## Foco
 
