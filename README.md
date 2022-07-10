@@ -6,7 +6,7 @@
 
 ## Escopo
 
-📚 Neste projeto, eu irei aprender a desenvolver uma aplicação completa para Mobile, utilizando Dart & Flutter.
+📚 Neste curso, eu tive a oportunidade de aprender / revisar muitas coisas, como Bloc, Provider, Repository Pattern, Temas, Temas Dinâmicos e Formulários. Além disso, aprendi a separar regra de negócio da view e validações customizadas.
 
 ## Foco
 
@@ -14,7 +14,7 @@
 
 ## Prazo
 
-⚡ Este projeto foi iniciado no dia 14/06/2022, porém, ainda está sendo desenvolvido. No entanto, em breve espero trazer muitas novidades para este repositório !!!
+⚡ Este projeto foi finalizado no dia 10/07/2022. Agora, irei seguir com o cronograma da Carreira Desenvolvedor Mobile Flutter e iniciar o curso Todo App: Mobile com Flutter, MobX e Firebase 
 
 ## Imagens
 
